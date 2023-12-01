@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Página - Modulo 1: Primeiros passos com HTML</title>
+    </head>
+    <body>
+        <h1 id="início">Módulo 1 - Primeiros passos com <abbr title= "Hypertext Markup Language">HTML</abbr></h1>
+        <hr />
+
+        <h2>Índice</h2>
+        <ul>
+            <li><a href="#evolução">Evolução dos Computadores</a></li>
+            <li><a href="#clients">O que são <strong>Clients</strong>?</a></li>
+            <li><a href="#servers">O que são <strong>Servers</strong>?</a></li>
+            <li><a href="#tipos"> Tipos de Servidores</a></li>
+            <li><a href="#estrutura">Como é uma estrutura básica de um HTML?</a></li>
+            <li><a href="#listas">Listas Ordenadas e Não Ordenadas</a></li>
+            <li><a href="#materiais">Materiais Complementares</a></li>
+            <li><a href="#glossário">Glossário</a></li>
+        </ul>
+        
+        <h2 id="evolução">Evolução dos Computadores</h2>
+        <small><a href="#início">(voltar)</a></small>
+        <ol>
+            <li><strong>Primeira Greação:</strong></li>
+                <ul>
+                    <li><strong>Havard Mark I <sub>(1944)</sub>:</strong></li>
+                    <p>Embora a ideia do computador já fosse concebida nas primeiras máquinas de cálculo, o primeiro artefato que marca o início da primeira geração é o Harvard Mark I, desenvolvido para processar cálculos mais complexos.</p>
+                    <li id="colossus"><strong>Colossus <sub>(1946)</sub>:</strong></li>
+                    <p>O Colossus foi um computador desenvolvido pelo Reino Unido no período da Segunda Guerra Mundial para <a href="#criptoanálises">criptoanálise<sup>*</sup></a>, sendo utilizado para decifrar códigos alemães.</p>
+                    <li><strong>Eniac <sub>(1946)</sub>:</strong></li>
+                    <p>Nos Estados Unidos, o ENIAC, desenvolvido durante a Segunda Guerra Mundial, foi um marco na história da computação, sendo o primeiro computador eletrônico digital de grande escala.</p>
+                </ul>
+            <li><strong>Segunda Geração:</strong></li>
+                <p>A segunda geração dos computadores, ocorrida aproximadamente entre 1959 e meados da década de 1960, testemunhou a transição das válvulas eletrônicas para os <strong>transistores</strong>. Esse avanço tecnológico resultou em computadores mais eficientes e compactos.</p>
+            <li><strong>Terceira Geração:</strong></li>
+                <p>A terceira geração de computadores, que se estendeu de 1965 a 1970, foi caracterizada pela introdução dos <strong>circuitos integrados</strong>, também conhecidos como <i>chips</i>. Esses chips consolidaram transistores, capacitores e resistores em um único componente. Esse avanço tecnológico permitiu a criação de sistemas mais compactos e poderosos, marcando uma fase crucial na evolução da computação.</p>
+            <li><strong>Quarta Geração:</strong></li>
+                <p> A quarta geração teve início em 1971 e persiste até os dias atuais. Durante esse período, os circuitos integrados evoluíram para <strong>microprocessadores</strong>, representando uma transição significativa. Os chips continuam sendo fundamentais, mas em versões mais avançadas. Esta geração é marcada pelo <mark><u>surgimento dos PCs (Computadores Pessoais)</u></mark>, contribuindo para a popularização da tecnologia. Nesse contexto, destaca-se também a <mark><u>introdução do primeiro mouse</u></mark>, associado à Apple, como parte integrante dos avanços na interação homem-computador.</p>
+            <li><strong>Quinta Geração?</strong></li>
+                <p>Muitas pessoas levantam a hipótese de estarmos ingressando na quinta geração dos computadores, dado o cenário atual de avanços tecnológicos. A ascensão da <strong>computação quântica</strong>, o impacto das <strong>criptomoedas</strong>, o <strong>metaverso</strong> e o contínuo desenvolvimento da <strong>inteligência artificial</strong> movem questões sobre a necessidade de reavaliar as tradicionais classificações em gerações. Enquanto alguns observadores consideram essas inovações como indicadores de uma nova era na evolução dos computadares, a sua presença ainda não é amplamente definida.</p>
+        </ol>
+
+
+        <h2 id="clients">O que são <strong>Clients</strong>?</h2>
+        <small><a href="#início">(voltar)</a></small>
+        <p>Em linguagem web, o termo <strong>"clients"</strong> refere-se aos dispositivos que consomem informações da internet, como notebooks e celulares. Esses dispositivos recebem dados dos servidores por meio da rede mundial de computadores.</p>
+        <p>Quando esses dispositivos acessam um site, a interação ocorre por meio da internet: a solicitação é enviada ao servidor, que por sua vez retorna arquivos HTML, CSS, JavaScript, imagens, entre outros. Esses arquivos são denominados <mark><u>estáticos</u></mark>. A eficiência do acesso do usuário é influenciada pela velocidade da conexão e pelo tamanho dos arquivos recebidos, sendo ambos fatores cruciais para uma experiência de navegação otimizada.</p>
+        <p>Os <strong>"clients"</strong> desempenham um papel central no ecossistema digital, especialmente quando consideramos os <strong>navegadores</strong>, <strong>aplicações web</strong> e <strong>dispositivos móveis</strong>. Navegadores são interfaces cruciais que facilitam a interação entre usuários e a vasta gama de aplicações web disponíveis. Essas aplicações, por sua vez, são projetadas para serem acessadas por meio de navegadores, proporcionando funcionalidades diversas, desde plataformas de mídia social até serviços de e-commerce. Diante desse contexto, os dispositivos móveis têm se tornado cada vez mais predominantes, tornando o acesso à internet e aplicativos ainda mais popular. O <strong>design responsivo</strong>, especialmente crucial em dispositivos móveis, assegura uma experiência adaptável em diversas telas, otimizando a usabilidade. Essa interconexão entre "clients", navegadores, aplicações web e dispositivos móveis cria um ambiente digital dinâmico, influenciando a maneira como os usuários interagem e exploram o vasto universo online.</p>
+        
+
+        <h2 id="servers">O que são <strong>Servers</strong>?</h2>
+        <small><a href="#início">(voltar)</a></small>
+        <p>Os <strong>servidores</strong>, ou "servers", desempenham um papel crucial no cenário digital. Existem servidores amplamente acessados através da internet, servindo como pilares para a conectividade global. No entanto, também existem servidores que operam em um ambiente mais restrito, sendo utilizados localmente, muitas vezes em empresas, sem depender da internet <strong>(intranet)</strong>. Os servidores, geralmente, são configurados como computadores mais robustos e caros, uma vez que são projetados para lidar com uma capacidade substancial de processamento de dados. Além disso, é importante destacar que a diversidade de servidores é notável. Eles podem variar desde computadores mais simples, utilizados para armazenar dados em menor escala, até estruturas mais complexas, como <strong>data centers</strong>, que oferecem capacidade de processamento e armazenamento em grande escala. </p>
+        <h3>Softwares em servidores:</h3>
+        <p>Quando um cliente emite uma requisição HTTP para um servidor, a solicitação é inicialmente recebida pelo <strong>sistema operacional</strong> do servidor. O sistema operacional desempenha um papel crucial no gerenciamento dos recursos do servidor, como CPU, memória e armazenamento. Funcionando como uma camada intermediária, ele recebe as solicitações e as encaminha para o servidor web correspondente. Diversos sistemas operacionais são dedicados a servidores, incluindo o <mark><u>Windows Server, desenvolvido pela Microsoft, e várias distribuições baseadas em Linux, como Ubuntu, CentOS, Fedora, Debian e Oracle</u></mark>. Essas opções oferecem flexibilidade para atender às necessidades específicas de diferentes ambientes de servidor.</p>
+        <p>Os <strong>servidores web</strong>, como <mark><u>Apache ou NGINX</u></mark>, são aplicativos especializados projetados para lidar com solicitações HTTP. Quando a requisição chega ao sistema operacional, este encaminha a solicitação para o servidor web correspondente, que então processa a requisição, determina como responder e, se necessário, interage com outros componentes, como bancos de dados ou aplicativos.</p>
+       
+       
+        <h2 id="tipos"><strong>Tipos de Servidores:</strong></h2>
+        <small><a href="#início">(voltar)</a></small>
+            <ul>
+                <li><strong>Proxy:</strong></li>
+                <p>O servidor proxy atua como <mark><u>intermediário</u></mark> no acesso dos dispositivos à internet, impondo regras como o bloqueio de determinados sites, sendo frequentemente utilizado em ambientes empresariais. Além disso, desempenha a função de <strong>servidor de autenticação</strong>, controlando o acesso com base em credenciais. . Em algumas situações, é possível que, ao realizar uma requisição HTTP, os dados passem pelo proxy, sejam processados pelo servidor central e, ao retornarem, sejam bloqueados pelo próprio proxy.</p>
+                <li><strong>Firewall:</strong></li>
+                <p>O firewall, embora <mark><u>não seja estritamente um servidor</u></mark>, desempenha uma função fundamental na garantia da segurança de dados, servindo como uma <strong>barreira protetora</strong> contra acessos externos não autorizados. Sua principal responsabilidade é monitorar e controlar o tráfego de rede, baseando-se em um conjunto predefinido de regras. Essa funcionalidade é essencial para proteger redes corporativas contra ameaças, como o envio de arquivos maliciosos, fornecendo uma camada adicional de segurança contra atividades indesejadas ou potencialmente prejudiciais.</p>
+                <li><strong>Web server:</strong></li>
+                <p>Um servidor web é um software projetado para gerenciar solicitações de clientes e fornecer respostas correspondentes, principalmente no contexto de acessar sites ou aplicativos pela internet. Ele atua como uma ponte entre os clientes e os recursos web, processando requisições, executando aplicativos e entregando conteúdo, como páginas da web, imagens e outros dados. Servidores web populares incluem o <mark><u>Apache e o NGINX</u></mark>. Esses componentes são essenciais para a infraestrutura da internet, garantindo a entrega eficiente e segura de informações aos usuários.</p>
+                <li><strong>E-mail server:</strong></li>
+                <p>Um servidor de e-mail, é projetado especificamente para armazenar, gerenciar e facilitar a troca de e-mails. Esse tipo de servidor lida com o recebimento, envio, armazenamento e encaminhamento de mensagens de e-mail. </p>
+                <li><strong>Database server:</strong></li>
+                <p> Em muitas aplicações web, é comum ter um servidor de banco de dados, que armazena e gerencia as informações dos usuários. As aplicações web instaladas no servidor podem acessar esse banco de dados para recuperar, modificar ou armazenar dados, garantindo a integridade das informações. Esse tipo servirdor desempenha um papel crítico na gestão eficiente e segura dos dados, sendo essencial para aplicações que dependem de armazenamento de informações, como sistemas de gerenciamento de conteúdo, comércio eletrônico, redes sociais e muito mais. Em muitas arquiteturas de aplicativos web, o <mark><u>servidor de banco de dados frequentemente opera como um componente separado, conectado a um servidor central</u></mark>. Essa separação de funções permite uma melhor organização e controle das operações, contribuindo para o desempenho eficaz e a manutenção da integridade dos dados.</p>
+                <li><strong>Servidor DNS:</strong></li>
+                <p>Um servidor DNS mantém uma tabela ou banco de dados que associa nomes de domínio (como "www.exemplo.com") a endereços IP específicos. Quando um usuário digita um nome de domínio em um navegador ou realiza qualquer outra solicitação na internet, o <mark><u>servidor DNS é consultado para traduzir esse nome de domínio em um endereço IP correspondente</u></mark>. Ele desempenha um papel crucial na navegação na web, pois permite que os usuários acessem sites digitando nomes de domínio amigáveis em vez de terem que memorizar os números de IP correspondentes.</p>
+            </ul>
+
+
+        <h2 id="estrutura">Como é uma estrutura básica de um HTML?</h2>
+        <small><a href="#início">(voltar)</a></small>
+        <p>O HTML é uma <i>linguagem de marcação de hipertexto</i> amplamente utilizada na criação de páginas web. Ao contrário de uma linguagem de programação, o HTML é voltado para a estruturação e organização do conteúdo. Para começar a estruturar um arquivo HTML, é fundamental iniciar com a tag <strong>< html > < /html ></strong>. Dentro dessa tag, é possível definir o cabeçalho da página entre as tags <strong>< head > < /head ></strong> e o corpo do arquivo, onde as informações visíveis para o usuário são adicionadas, entre as tags <strong>< body > < /body ></strong>. O HTML também oferece tags de formatação de texto, como <strong>< i >< /i ></strong> para itálico, <strong>< strong >< /strong ></strong> para negrito e <strong>< u >< /u ></strong> para sublinhado, aprimorando a apresentação visual e a legibilidade do conteúdo em páginas web.</p>
+        <p>A tag <strong>< input ></strong> é utilizada para permitir que os usuários adicionem informações em uma página web. Ao empregar o atributo <strong><i>type</i></strong>, é possível definir diferentes formatos. Por exemplo, <strong> < input type="text"/ ></strong> possibilita a inserção de informações em formato de texto, enquanto <strong>< input type="number"/ ></strong> aceita apenas valores numéricos. Além disso, a tag <strong>< img/ ></strong>  é empregada para incorporar imagens na página, ela também é auto-fechável e pode ser configurada com atributos como <i>src</i> para indicar o endereço da imagem, <i>width</i> para especificar a largura desejada e <i>alt</i> para fornecer uma descrição textual da imagem. Um exemplo seria: <strong>< img width="150" src="endereço da imagem" alt="descrição"/ ></strong>. Esses elementos são essenciais para enriquecer a experiência do usuário ao interagir com o conteúdo da página web.</p>
+        <p>As tags voltadas para a estruturação de textos são conhecidas como <mark><u>elementos de tipografia em HTML</u></mark>. Para iniciar um título, utiliza-se <strong>< h1 >< /h1 ></strong>, sendo possível prosseguir até a tag <strong>< h6 >< /h6 ></strong>, que define subtítulos. A estrutura do texto é delineada pela tag <strong>< p >< /p ></strong>, onde cada parágrafo é encapsulado individualmente para proporcionar a quebra no conteúdo. No caso de citações, a tag apropriada é <strong>< blockquote >< /blockquote ></strong>.</p>
+        <p> Para inserir um <mark><u>link</u></mark> em um arquivo HTML, utiliza-se a tag <strong>< a >< /a ></strong>. Dentro dessa tag, o atributo <i>href</i> é empregado para especificar o endereço do link. O atributo <i>target</i> pode ser utilizado para indicar que o link deve abrir em uma nova aba do navegador, sendo possível utilizar <i>target="_blank"</i> para essa finalidade. Exemplo: <strong>< a href="endereço do link" target="_blank">Nome do link no arquivo< /a ></strong>.</p>
+
+
+        <h2 id="listas">Listas Ordenadas e Não Ordenadas</h2>
+        <small><a href="#início">(voltar)</a></small>
+        <p> No HTML, há <del>três</del> <ins>dois</ins> tipos principais de listas para estruturar textos: as <strong>ordenadas</strong>, representadas pela tag <strong>< ol >< /ol ></strong>, e as <strong>não ordenadas</strong>, identificadas pela tag <strong>< ul >< /ul ></strong>. Dentro dessas tags, os itens individuais são adicionados por meio da tag <strong>< li >< /li ></strong>. Vale destacar que é possível incorporar uma lista dentro da outra, proporcionando uma hierarquia de listas.</p>
+        <h3>Exemplos:</h3>
+            <h4>Lista Ordenada < ol >< /ol >:</h4>
+                <ol>
+                    <li>Item 1</li>
+                    <li>Item 2</li>
+                    <li>Item 3</li>
+                </ol>
+            <h4>Listas Não Ordenadas < ul>< /ul >:</h4>
+                <ul>
+                    <li>Item 1</li>
+                    <li>Item 2</li>
+                    <li>Item 3</li>
+                </ul>
+            <h4>Uma lista dentro da outra:</h4>
+                <ol>
+                    <li>Item 1</li>
+                    <li>Item 2</li>
+                    <li>Item 3
+                        <ul>
+                            <li>Item 3.1</li>
+                            <li>Item 3.2</li>
+                            <li>Item 3.3</li>
+                        </ul>
+                    </li>
+                </ol>
+
+
+        <h2 id="materiais">Materiais Complementares</h2>
+        <small><a href="#início">(voltar)</a></small>
+        <ul>
+            <li><a href="https://www.youtube.com/watch?v=3oSIqIqzN3M" target="_blank">5 MINUTOS DE HTML PARA INICAR EM PROGRAMAÇÃO!</a></li>
+            <li><a href="https://www.w3schools.com/tags/default.asp" target="_blank"> HTML Reference</a></li>
+            <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" target="_blank"> HTML: Linguagem de Marcarção e Hipertexto</a></li>
+        </ul>
+
+        <h2 id="glossário">Glossário</h2>
+        <small><a href="#início">(voltar)</a></small>
+        <ul>
+            <li id="criptoanálises"><strong>Criptoanálise:</strong> Estudo e prática de analisar sistemas de criptografia com o objetivo de decifrar ou quebrar códigos, revelando informações protegidas.</li>
+            <small><a href="#colossus">(voltar)</a></small>
+        </ul>
+        <hr/>
+        <blockquote>
+            <font size="4" color="blue" face="arial" sans-serif><i>"O progresso da tecnologia é a história da humanidade reinventando constantemente o futuro, uma narrativa escrita pelas mãos engenhosas que moldam nosso destino com a inovação e a visão."</i> <strong>- Albert Einstein</strong> </font>
+        </blockquote>
+    </body>
+</html>
